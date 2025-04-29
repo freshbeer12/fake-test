@@ -2,11 +2,11 @@ import java.util.Scanner;
 public class Publikace {
     Scanner sc = new Scanner(System.in);
 
-    String nazev;
-    String autor;
-    int rokVydani;
-    int isbn;
-    int pocetStranek;
+   private String nazev;
+   private String autor;
+   private int rokVydani;
+   private int isbn;
+   private int pocetStranek;
 
     public Publikace(){
         System.out.println("Zadej název knihy");
